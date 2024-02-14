@@ -2,7 +2,7 @@ package com.example.proyectoDSC.Modal;
 
 import jakarta.persistence.*;
 
-
+@Entity
 @Table(name = "Usuario")
 public class Usuario {
 
