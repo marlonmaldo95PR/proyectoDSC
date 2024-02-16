@@ -3,7 +3,7 @@ package com.example.proyectoDSC.Modal;
 import jakarta.persistence.*;
 
 
-@Table(name = "Usuario")
+@Table(name = "Usuarios")
 public class Usuario {
 
     @Id
