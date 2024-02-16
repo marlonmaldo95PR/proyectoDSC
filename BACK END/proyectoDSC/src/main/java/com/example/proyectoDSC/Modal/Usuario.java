@@ -2,8 +2,13 @@ package com.example.proyectoDSC.Modal;
 
 import jakarta.persistence.*;
 
+<<<<<<< HEAD
 
 @Table(name = "Usuarios")
+=======
+@Entity
+@Table(name = "Usuario")
+>>>>>>> bf0df0926057c82c7bd04506811fa069e28c8d46
 public class Usuario {
 
     @Id
