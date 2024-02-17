@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9007255f-031e-4323-91a2-ce97586fa0cf" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/BACK END/proyectoDSC/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BACK END/proyectoDSC/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BACK END/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BACK END/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BACK END/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BACK END/proyectoDSC/src/main/java/com/example/proyectoDSC/Modal/Rol.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BACK END/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/BACK END/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BACK END/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BACK END/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BACK END/proyectoDSC/src/main/java/com/example/proyectoDSC/Modal/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/BACK END/proyectoDSC/src/main/java/com/example/proyectoDSC/Modal/Producto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BACK END/proyectoDSC/src/main/java/com/example/proyectoDSC/Modal/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/BACK END/proyectoDSC/src/main/java/com/example/proyectoDSC/Modal/Usuario.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BACK END/proyectoDSC/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/BACK END/proyectoDSC/src/main/resources/application.properties" afterDir="false" />
@@ -15,9 +20,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2cFFdJc8nlAgCP093bZg56BFTmo" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -27,9 +32,9 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "LYZETTE",
+    "git-widget-placeholder": "Merging MARLON",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/lyzet/Desktop/Rfgt/proyectoDSC/BACK END/proyectoDSC",
+    "last_opened_file_path": "/Users/marlonmaldonado/Documents/DSC/proyectoDSC",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }

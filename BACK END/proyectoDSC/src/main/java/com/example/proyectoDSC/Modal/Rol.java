@@ -17,7 +17,7 @@ public class Rol implements GrantedAuthority {
 
     @Column(name = "rol")
     @Enumerated(EnumType.STRING)
-    private UsuarioRol usuarioRol;
+    //private UsuarioRol usuarioRol;
     @Override
     public String getAuthority() {
         return null;
