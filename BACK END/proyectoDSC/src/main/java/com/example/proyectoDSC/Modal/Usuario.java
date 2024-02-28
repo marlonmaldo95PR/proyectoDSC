@@ -2,8 +2,8 @@ package com.example.proyectoDSC.Modal;
 
 import jakarta.persistence.*;
 
-
-@Table(name = "Usuario")
+@Entity
+@Table(name = "usuario")
 public class Usuario {
 
     @Id
@@ -16,7 +16,10 @@ public class Usuario {
     private String password;
     private String rol;
 
-    //@OneToMany(mappedBy = "usuario", cascade = CascadeType.REMOVE)
+    @OneToOne(mappedBy = "usuario", cascade = CascadeType.REMOVE)
+    private Comprador comprador;
+
+
 
     public Usuario() {
     }
@@ -24,7 +27,6 @@ public class Usuario {
     public Usuario(String nombre, String apellido, String numeroDocumento, String email, String password, String rol) {
         this.nombre = nombre;
         this.apellido = apellido;
-        this.numeroDocumento = numeroDocumento;
         this.email = email;
         this.password = password;
         this.rol = rol;
@@ -42,17 +44,12 @@ public class Usuario {
         return apellido;
     }
 
+
+
     public void setApellido(String apellido) {
         this.apellido = apellido;
     }
 
-    public String getNumeroDocumento() {
-        return numeroDocumento;
-    }
-
-    public void setNumeroDocumento(String numeroDocumento) {
-        this.numeroDocumento = numeroDocumento;
-    }
 
     public String getEmail() {
         return email;
@@ -76,5 +73,21 @@ public class Usuario {
 
     public void setRol(String rol) {
         this.rol = rol;
+    }
+
+
+// Puedes agregar los métodos equals() y hashCode() si planeas utilizar instancias de Usuario en colecciones.
+
+    @Override
+    public String toString() {
+        return "Usuario{" +
+                "id=" + id +
+                ", nombre='" + nombre + '\'' +
+                ", apellido='" + apellido + '\'' +
+                ", numeroDocumento='" + numeroDocumento + '\'' +
+                ", email='" + email + '\'' +
+                ", password='" + password + '\'' +
+                ", rol='" + rol + '\'' +
+                '}';
     }
 }
