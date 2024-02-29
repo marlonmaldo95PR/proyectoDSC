@@ -1,6 +1,7 @@
 package com.example.proyectoDSC.Modal;
 
 import jakarta.persistence.*;
+
 import lombok.Getter;
 import lombok.Setter;
 
@@ -43,5 +44,10 @@ public class Producto {
         this.talla = talla;
     }
 
+    public Producto() {
+    }
+
+
 
 }
+

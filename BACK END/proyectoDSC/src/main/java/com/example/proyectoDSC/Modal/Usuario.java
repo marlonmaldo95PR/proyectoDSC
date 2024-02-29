@@ -3,7 +3,10 @@ package com.example.proyectoDSC.Modal;
 import jakarta.persistence.*;
 
 @Entity
+
 @Table(name = "usuario")
+
+
 public class Usuario {
 
     @Id
