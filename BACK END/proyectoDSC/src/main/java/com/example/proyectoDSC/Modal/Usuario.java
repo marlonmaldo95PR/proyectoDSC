@@ -1,10 +1,17 @@
 package com.example.proyectoDSC.Modal;
 
 import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+//import lombok.NoArgsConstructor;
+import lombok.Setter;
 
+
+@AllArgsConstructor
+@Table(name = "Usuarios")
+@Getter
+@Setter
 @Entity
-
-@Table(name = "usuario")
 
 
 public class Usuario {
@@ -25,6 +32,7 @@ public class Usuario {
 
 
     public Usuario() {
+
     }
 
     public Usuario(String nombre, String apellido, String numeroDocumento, String email, String password, String rol) {
@@ -64,15 +72,12 @@ public class Usuario {
 
     public String getPassword() {
         return password;
-    }
 
-    public void setPassword(String password) {
-        this.password = password;
     }
+}
 
-    public String getRol() {
-        return rol;
-    }
+
+
 
     public void setRol(String rol) {
         this.rol = rol;
@@ -94,3 +99,4 @@ public class Usuario {
                 '}';
     }
 }
+

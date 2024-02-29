@@ -21,7 +21,7 @@
     "react"
   ],
   "author": "MDBootstrap",
-  "license": "MIT",
+  "license": "SEE LICENSE IN <License.txt>",
   "browserslist": {
     "production": [
       ">0.2%",
